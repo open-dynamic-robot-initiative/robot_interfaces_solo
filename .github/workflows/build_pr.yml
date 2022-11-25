@@ -26,7 +26,7 @@ jobs:
           uri: oras://ghcr.io/open-dynamic-robot-initiative/trifinger_singularity/solo_user:latest
 
       - name: Build
-        uses: open-dynamic-robot-initiative/trifinger-build-action/build@v2
+        uses: open-dynamic-robot-initiative/trifinger-build-action/build@fwidmaier/more_isolation
 
       - name: Tests
         uses: open-dynamic-robot-initiative/trifinger-build-action/run_tests@v2
